@@ -1,0 +1,50 @@
+/* Common styles */
+body {
+  font-family: 'Roboto', 'Verdana', 'Arial', sans-serif;
+  color: black;
+  background: #fff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.hero-button {
+  cursor: pointer;
+  color: #fff;
+  background: #4d5ae5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover {
+  background: #404bbf;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: rgb(229, 255, 0);
+}
+
+/* Header styles */
+.logotype {
+  color: #2e2f42;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logotype span {
+  color: #4d5ae5;
+}
