@@ -1,7 +1,11 @@
-/* Common styles */
+/* === Common styles === */
 body {
   font-family: 'Roboto', 'Verdana', 'Arial', sans-serif;
-  color: black;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.02em;
   background: #fff;
 }
 
@@ -13,27 +17,9 @@ body {
   list-style-type: none;
 }
 
-.hero-button {
-  cursor: pointer;
-  color: #fff;
-  background: #4d5ae5;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  /* 150% */
-  letter-spacing: 0.04em;
-}
+/* === /Common styles === */
 
-.hero-button:hover {
-  background: #404bbf;
-}
-
-.menu-link:hover,
-.menu-link:focus {
-  color: rgb(229, 255, 0);
-}
-
-/* Header styles */
+/* === Header styles === */
 .logotype {
   color: #2e2f42;
   font-family: 'Raleway', sans-serif;
@@ -48,3 +34,120 @@ body {
 .logotype span {
   color: #4d5ae5;
 }
+
+.menu-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404BBF;
+}
+
+.menu-link:active {
+  color: #404BBF;
+}
+
+
+
+.contacts-link {
+  font-style: normal;
+  color: inherit;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+/* === /Header styles === */
+
+/* === HERO === */
+.page-hero {
+  background-color: #2E2F42;
+}
+
+.hero-top {
+  color: #FFF;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  /* 107.143% */
+}
+
+.hero-button {
+  font-family: inherit;
+  cursor: pointer;
+  color: #fff;
+  background: #4d5ae5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: #404bbf;
+}
+
+/* === /HERO === */
+
+/* === Features style === */
+.features-name {
+  color: #2E2F42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  /* 120% */
+}
+
+/* === /Features style === */
+
+/* === Team section style === */
+.page-team {
+  background: #F4F4FD;
+}
+
+.team-item {
+  background: #FFF;
+}
+
+.team-member {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  /* 120% */
+}
+
+.team-text {
+  text-align: center;
+}
+
+/* === /Team section style === */
+
+/* === Portfolio section style === */
+.portfolio-subject {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  /* 120% */
+}
+
+/* === /Portfolio section style === */
+
+/* === Footer style === */
+.page-footer {
+  background: #2E2F42;
+}
+
+.logotype,
+.page-footer-text {
+  color: #F4F4FD;
+}
+
+/* === /Footer style === */
