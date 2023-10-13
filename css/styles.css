@@ -35,7 +35,7 @@ address {
   text-transform: uppercase;
 }
 
-.logotype span {
+.page-header .logotype-span {
   color: #2e2f42;
 }
 
@@ -175,7 +175,7 @@ address {
   background: #2E2F42;
 }
 
-.footer-logotype-span {
+.page-footer .logotype-span {
   color: #F4F4FD;
 }
 
