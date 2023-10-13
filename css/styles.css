@@ -163,7 +163,10 @@ body {
   background: #2E2F42;
 }
 
-.page-footer span,
+.page-footer span {
+  color: #F4F4FD;
+}
+
 .page-footer-text {
   color: #F4F4FD;
 }
