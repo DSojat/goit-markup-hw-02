@@ -109,6 +109,7 @@ address {
   font-weight: 500;
   line-height: 1.2;
   /* 120% */
+  letter-spacing: 0.02em;
 }
 
 /* === /Features style === */
@@ -136,10 +137,12 @@ address {
 
 .team-member {
   text-align: center;
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   /* 120% */
+  letter-spacing: 0.02em;
 }
 
 .team-text {
@@ -162,6 +165,7 @@ address {
 }
 
 .portfolio-subject {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -175,8 +179,12 @@ address {
   background: #2E2F42;
 }
 
-.page-footer .logotype-span {
+.page-footer .logotype {
   color: #F4F4FD;
+}
+
+.page-footer .logotype-span {
+  color: #4d5ae5;
 }
 
 .page-footer-text {
