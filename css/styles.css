@@ -9,6 +9,10 @@ body {
   background: #fff;
 }
 
+address {
+  font-style: normal;
+}
+
 .link {
   text-decoration: none;
 }
@@ -51,7 +55,6 @@ body {
 }
 
 .contacts-link {
-  font-style: normal;
   color: inherit;
 }
 
@@ -113,10 +116,12 @@ body {
 .team-top {
   text-align: center;
   /* Header 2 */
+  color: inherit;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   /* 111.111% */
+  letter-spacing: inherit;
   text-transform: capitalize;
 }
 
@@ -142,10 +147,12 @@ body {
 .portfolio-top {
   text-align: center;
   /* Header 2 */
+  color: inherit;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   /* 111.111% */
+  letter-spacing: inherit;
   text-transform: capitalize;
 }
 
