@@ -77,6 +77,7 @@ address {
   font-weight: 700;
   line-height: 1.07;
   /* 107.143% */
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
@@ -98,6 +99,10 @@ address {
 /* === /HERO === */
 
 /* === Features style === */
+.page-features h2 {
+  letter-spacing: 0.02em;
+}
+
 .features-name {
   color: #2E2F42;
   font-size: 20px;
@@ -116,12 +121,12 @@ address {
 .team-top {
   text-align: center;
   /* Header 2 */
-  color: inherit;
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   /* 111.111% */
-  letter-spacing: inherit;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -147,12 +152,12 @@ address {
 .portfolio-top {
   text-align: center;
   /* Header 2 */
-  color: inherit;
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   /* 111.111% */
-  letter-spacing: inherit;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -170,7 +175,7 @@ address {
   background: #2E2F42;
 }
 
-.page-footer span {
+.footer-logotype-span {
   color: #F4F4FD;
 }
 
