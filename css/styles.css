@@ -170,6 +170,7 @@ address {
   font-weight: 500;
   line-height: 1.2;
   /* 120% */
+  letter-spacing: 0.02em;
 }
 
 /* === /Portfolio section style === */
@@ -179,12 +180,8 @@ address {
   background: #2E2F42;
 }
 
-.page-footer .logotype {
-  color: #F4F4FD;
-}
-
 .page-footer .logotype-span {
-  color: #4d5ae5;
+  color: #F4F4FD;
 }
 
 .page-footer-text {
